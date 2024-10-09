@@ -1,0 +1,35 @@
+{
+  "name": "electron-vue-template",
+  "version": "0.1.0",
+  "description": "A minimal Electron + Vue application",
+  "main": "main/main.js",
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "build": "node scripts/build.js && electron-builder",
+    "build:win": "node scripts/build.js && electron-builder --win",
+    "build:mac": "node scripts/build.js && electron-builder --mac",
+    "build:linux": "node scripts/build.js && electron-builder --linux"
+  },
+  "repository": "https://github.com/leonardo-404a/music-player",
+  "author": {
+    "name": "Leonardo Alves",
+    "url": "https://github.com/leonardo-404a"
+  },
+  "devDependencies": {
+    "@types/electron": "^1.6.10",
+    "@types/node": "^22.7.4",
+    "@vitejs/plugin-vue": "^4.4.1",
+    "chalk": "^4.1.2",
+    "chokidar": "^3.5.3",
+    "electron": "^32.1.2",
+    "electron-builder": "^25.1.6",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0"
+  },
+  "dependencies": {
+    "electron-store": "^8.2.0",
+    "howler": "^2.2.4",
+    "vue": "^3.3.8",
+    "wavesurfer.js": "^7.8.6"
+  }
+}
